@@ -4,11 +4,17 @@
   "version": "1.0.0",
   "description": "An updated version of the language-oz package",
   "keywords": [
+
   ],
-  "activationCommands": {
-    "atom-workspace": "language-oz-2:toggle"
+  "deprecated": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsonnino/language-oz-2.git"
   },
-  "repository": "https://github.com/atom/language-oz-2",
+  "bugs": {
+    "url": "https://github.com/lsonnino/language-oz-2/issues"
+  },
+  "homepage": "https://github.com/lsonnino/language-oz-2#readme",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

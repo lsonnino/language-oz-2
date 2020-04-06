@@ -1,0 +1,4 @@
+'.source.oz':
+  'editor':
+    'increaseIndentPattern': '^(\\s*|.+=\\s*)(\\b(class|proc|fun|local|import|if|else|elseif|for|in|case|meth)\\b(?!.*?\\bend\\b)|\\bof\\s.+\\s+then\\b|\\[\\]\\s.+\\sthen).*$'
+    'decreaseIndentPattern': '(^\\s*((end|else|elseif|in|define)\\b|\\bof\\s.+\\s+then\\b|\\[\\]\\s.+\\sthen))'
