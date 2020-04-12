@@ -69,6 +69,17 @@
     ]
   }
   {
+    'begin': '\"'
+    'end': '\"'
+    'name': 'string.quoted.simple.oz'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.oz'
+      }
+    ]
+  }
+  {
     'match': '(@)[A-Z]\\w*'
     'name': 'variable.other.readwrite.cell.oz'
   }
